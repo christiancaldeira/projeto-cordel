@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family= Passion +One & display=swap');
+
+@import
+url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
+
+@font-face {
+    font-family: 'Srinracha';
+    src: url(pacote-d012/fonte/Sriracha/Sriracha-Regular.ttf) format('truetype');
+}
+:root {
+
+    --fonte-destaque:'Passion One', cursiva;
+    --fonte-texto: 'Sriracha', cursive;
+}
+
+
+body {
+    background-color: rgb(234, 234, 234);
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    height: 70px;
+    max-width: 100%;
+}
+
+header > h1 {
+    padding: 5px;
+    font-family: var(--fonte-destaque);
+    font-size: 10vh;
+    font-variant: small-caps;
+    
+}
+
+header > p {
+    
+    font-weight: normal;
+
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+
+
+main {
+    text-align: justify;
+    padding: 10px;
+    
+}
+main > p {
+    padding: 40px;
+    padding-bottom: 30px;
+    font-family: 'Sriracha' ,var(--fonte-texto);
+    font-size: 3vh;
+    line-height: 40px;
+    padding: 2em;
+    
+    font-weight: bolder;
+
+}
+hr {
+    text-decoration: none;
+
+}
+
+div > p {
+    
+    font-family: var(--fonte-texto);
+    text-align: justify;
+    font-size: 3.2vh;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.43),transparent);
+    padding: 10px;
+    line-height: 30px;
+    
+    
+
+    position: absolute;
+
+    top: 16%;
+    left: 2%;
+    right: 49%;
+
+}
+
+.conteudo {
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 158% 101%;
+    
+    height: 390px;
+    
+
+    margin: 10px 0px 10px 41px;
+
+    position: relative;
+
+    
+}
+
+
+.destaque {
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 158% 101%;
+    height: 390px;
+    margin: 10px 0px 10px 41px;
+
+    position: relative;
+}
+
+
+
+footer {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    max-width: 100%;
+}
+
+footer > h2 {
+    font-size: 1em;
+    text-align: center;
+}
+
+footer > h2 > a {
+    text-decoration: none;
+    color: white;
+
+}
+footer > h2 > a:hover {
+    background-color: rgb(60, 66, 255);
+    text-decoration: underline;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition-duration: 0.5s;
+
+
+
+}
