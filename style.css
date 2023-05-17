@@ -89,10 +89,16 @@ div > p {
     text-align: justify;
     font-size: 3.2vh;
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.43),transparent);
+    background-color: rgba(0, 0, 0, 0.31);
     padding: 10px;
     line-height: 30px;
-    
+    max-width: 220px;
+
+    position: absolute;
+
+    top: 16%;
+    left: 2%;
+    right: 49%;
     
 
     
@@ -110,7 +116,7 @@ div > p {
     height: 390px;
     
 
-    
+    position: relative;
 
     
 }
@@ -125,7 +131,7 @@ div > p {
     background-size: 158% 101%;
     height: 390px;
 
-
+position: relative;
 }
 
 
