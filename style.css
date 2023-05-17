@@ -95,11 +95,7 @@ div > p {
     
     
 
-    position: absolute;
-
-    top: 16%;
-    left: 2%;
-    right: 49%;
+    
 
 }
 
@@ -114,9 +110,7 @@ div > p {
     height: 390px;
     
 
-    margin: 10px 0px 10px 41px;
-
-    position: relative;
+    
 
     
 }
@@ -130,9 +124,8 @@ div > p {
     background-repeat: no-repeat;
     background-size: 158% 101%;
     height: 390px;
-    margin: 10px 0px 10px 41px;
 
-    position: relative;
+
 }
 
 
