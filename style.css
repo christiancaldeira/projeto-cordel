@@ -96,7 +96,7 @@ div > p {
 
     position: absolute;
 
-    top: 16%;
+    top: 10%;
     left: 2%;
     right: 49%;
     
@@ -165,4 +165,35 @@ footer > h2 > a:hover {
 
 
 
+}
+
+@media (max-width: 400px) {
+    header > h1 {
+        font-size: 2em;
+        padding: 0%;
+    }
+    div > p {
+        font-size: .9em;
+
+        position: absolute;
+
+        top: 10%;
+        left: 5%;
+        right: 0%;
+        
+    }
+}
+
+@media (min-width: 600px) {
+    div > p {
+        font-size: 1.2em;
+        line-height: 40px;
+
+        position: absolute;
+
+        top: 7%;
+        left: 4%;
+    }
+
+    
 }
