@@ -166,10 +166,11 @@ footer > h2 > a:hover {
 
 
 }
+/*Mobile and Mobile Devices*/
 
-@media (max-width: 400px) {
+@media screen and (min-width: 220px) and (max-width: 480px)  {
     header > h1 {
-        font-size: 2em;
+        font-size: 1.9em;
         padding: 0%;
     }
     div > p {
@@ -184,15 +185,20 @@ footer > h2 > a:hover {
     }
 }
 
-@media (min-width: 600px) {
+/*Tabletes e Ipads*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    header > h1 {
+        font-size: 2.5em;
+    }
     div > p {
-        font-size: 1.2em;
+        font-size: 1em;
         line-height: 40px;
 
         position: absolute;
 
-        top: 7%;
-        left: 4%;
+        top: 10%;
+        left: 3%;
     }
 
     
